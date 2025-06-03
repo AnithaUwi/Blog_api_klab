@@ -170,7 +170,7 @@ export async function sendEmailVerifiedConfirmation(email: string) {
 
           <div style="text-align: center; margin: 30px 0;">
             <a href="${process.env.FRONTEND_URL}" target="_blank" style="
-              background-color: #4CAF50;
+              background-color:rgb(175, 35, 35);
               color: white;
               padding: 14px 28px;
               text-decoration: none;
@@ -185,7 +185,7 @@ export async function sendEmailVerifiedConfirmation(email: string) {
           <hr style="margin: 30px 0; border: none; border-top: 1px solid #eee;" />
 
           <p style="font-size: 14px; color: #aaa; text-align: center;">
-            &copy; ${new Date().getFullYear()} Sarah App. All rights reserved.
+            &copy; ${new Date().getFullYear()} anitha App. All rights reserved.
           </p>
         </div>
       </div>
